@@ -5,7 +5,7 @@ import '@testing-library/jest-dom';
 describe('App test', () => {
   it('should have heading', () => {
     render(<App />);
-    expect(screen.getByTestId('heading')).toHaveTextContent('Hellworld');
+    expect(screen.getByTestId('heading')).toHaveTextContent('Hello world');
   });
 
   it('should have heading', () => {
