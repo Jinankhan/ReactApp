@@ -1,7 +1,7 @@
 FROM node:alpine3.10 AS build
 WORKDIR /app
 COPY . .
-RUN npm i
+RUN npm i -f
 RUN npm run build
 
 
