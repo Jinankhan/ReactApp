@@ -1,6 +1,11 @@
-import React from 'react';
-
+import * as Components from './components';
 const App = () => {
-  return <div data-testid="heading">Hello world</div>;
+  return (
+    <div>
+      {Object.values(Components).map((Component, index) => (
+        <Component key={index} />
+      ))}
+    </div>
+  );
 };
 export default App;
