@@ -1,10 +1,8 @@
-import * as Components from './components';
+import  Component from './component/index';
 const App = () => {
   return (
     <div>
-      {Object.values(Components).map((Component, index) => (
-        <Component key={index} />
-      ))}
+     <Component/>
     </div>
   );
 };
