@@ -1,4 +1,4 @@
-import  Component from './component/index';
+import  Component from './components/index';
 const App = () => {
   return (
     <div>
